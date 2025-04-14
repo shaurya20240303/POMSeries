@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="34.214" tests="31" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="surefire.suiteXmlFiles" value="src/test/resources/testrunner/testng.regression.xml"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Shaur\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\boot\plexus-classworlds-2.8.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="maven.conf" value="C:\Users\Shaur\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9/conf"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Denv=qa -Dsurefire.suiteXmlFiles=src/test/resources/testrunner/testng.regression.xml"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Users\Shaur\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Shaur"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.23+7-LTS-222"/>
+    <property name="user.name" value="Shaur"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Shaur\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.23"/>
+    <property name="user.dir" value="C:\Users\Shaur\eclipse-workspace\POMSeries"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Shaur\eclipse-workspace\POMSeries"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="env" value="qa"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Git\cmd;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Java\jdk-11\bin;C:\Users\Shaur\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Users\Shaur\scoop\shims;C:\Users\Shaur\AppData\Local\Microsoft\WindowsApps;C:\Users\Shaur\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Shaur\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.23+7-LTS-222"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="classworlds.conf" value="C:\Users\Shaur\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\Users\Shaur\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\lib\jansi-native"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="footerTest" classname="com.qa.opencart.tests.HomePageTest" time="2.161"/>
+  <testcase name="footerTest" classname="com.qa.opencart.tests.HomePageTest" time="0.491"/>
+  <testcase name="footerTest" classname="com.qa.opencart.tests.HomePageTest" time="0.032"/>
+  <testcase name="footerTest" classname="com.qa.opencart.tests.HomePageTest" time="0.65"/>
+  <testcase name="footerTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.057"/>
+  <testcase name="footerTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.497"/>
+  <testcase name="footerTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.498"/>
+  <testcase name="footerTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.339"/>
+  <testcase name="forgotPwdLinkExistTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.139"/>
+  <testcase name="headersTest" classname="com.qa.opencart.tests.HomePageTest" time="0.106"/>
+  <testcase name="homePageTitleTest" classname="com.qa.opencart.tests.HomePageTest" time="0.046"/>
+  <testcase name="homePageURLTest" classname="com.qa.opencart.tests.HomePageTest" time="0.053"/>
+  <testcase name="logoutLinkExistTest" classname="com.qa.opencart.tests.HomePageTest" time="0.074"/>
+  <testcase name="productImagesCountTest" classname="com.qa.opencart.tests.ProductinfoPageTest" time="0.165"/>
+  <testcase name="productImagesCountTest" classname="com.qa.opencart.tests.ProductinfoPageTest" time="1.625"/>
+  <testcase name="productImagesCountTest" classname="com.qa.opencart.tests.ProductinfoPageTest" time="0.786"/>
+  <testcase name="productImagesCountTest" classname="com.qa.opencart.tests.ProductinfoPageTest" time="0.634"/>
+  <testcase name="productImagesCountTest" classname="com.qa.opencart.tests.ProductinfoPageTest" time="1.913"/>
+  <testcase name="searchTest" classname="com.qa.opencart.tests.HomePageTest" time="0.035"/>
+  <testcase name="searchTest" classname="com.qa.opencart.tests.HomePageTest" time="0.901"/>
+  <testcase name="searchTest" classname="com.qa.opencart.tests.HomePageTest" time="0.046"/>
+  <testcase name="searchTest" classname="com.qa.opencart.tests.HomePageTest" time="0.892"/>
+  <testcase name="searchTest" classname="com.qa.opencart.tests.HomePageTest" time="4.654"/>
+  <testcase name="loginPageTitleTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.549">
+    <failure message="==title is not matched expected [Account Login11] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: ==title is not matched expected [Account Login11] but found [null]
+	at com.qa.opencart.tests.LoginPageTest.loginPageTitleTest(LoginPageTest.java:34)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method searchTest start
+search keyairtel
+title is not found after+timeout5seconds
+login page title==>null
+I am in onTestFailure method loginPageTitleTest failed
+Screenshot captured for test case:loginPageTitleTest
+]]></system-out>
+  </testcase>
+  <testcase name="loginPageURLTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.015"/>
+  <testcase name="logoTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.032"/>
+  <testcase name="loginTest" classname="com.qa.opencart.tests.LoginPageTest" time="1.402"/>
+  <testcase name="productInfoTest" classname="com.qa.opencart.tests.ProductinfoPageTest" time="1.596"/>
+  <testcase name="productSearchHeaderTest" classname="com.qa.opencart.tests.ProductinfoPageTest" time="1.141"/>
+  <testcase name="productSearchHeaderTest" classname="com.qa.opencart.tests.ProductinfoPageTest" time="1.096"/>
+  <testcase name="productSearchHeaderTest" classname="com.qa.opencart.tests.ProductinfoPageTest" time="1.148"/>
+</testsuite>

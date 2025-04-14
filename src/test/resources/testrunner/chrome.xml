@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="TestNG Regression Suite" verbose="3" parallel="tests" thread-count="3" >
+<!--versobe-means level of log need to generate from 0 to 10 -->
+<!--parallel mode feature by testng  and thread-count means worker-->
+
+<listeners>
+		<listener
+			class-name="com.aventstack.chaintest.plugins.ChainTestListener" />
+		<listener
+			class-name="com.qa.opencart.listeners.TestAllureListener" />  
+		<!-- <listener class-name="com.qa.opencart.listeners.AnnotationTransformer" 
+			/> -->
+
+	</listeners>
+
+
+
+
+	<test name="Home Page Test chrome">
+	<parameter name="browser" value="chrome" />
+	
+		<classes>
+			<class name="com.qa.opencart.tests.HomePageTest" />
+		</classes>
+	</test>
+	<test name="Login Page Test chrome">
+	<parameter name="browser" value="chrome" />
+	
+		<classes>
+			<class name="com.qa.opencart.tests.LoginPageTest"/>
+		</classes>
+	</test>
+	<test name="Product Info Page Test chrome">
+	<parameter name="browser" value="chrome" />
+	
+		<classes>
+			<class name="com.qa.opencart.tests.ProductinfoPageTest" />
+		</classes>
+	</test>
+	
+	
+
+</suite>

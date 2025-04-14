@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 31, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 34.214 s <<< FAILURE! - in TestSuite
+loginPageTitleTest(com.qa.opencart.tests.LoginPageTest)  Time elapsed: 0.549 s  <<< FAILURE!
+java.lang.AssertionError: ==title is not matched expected [Account Login11] but found [null]
+	at com.qa.opencart.tests.LoginPageTest.loginPageTitleTest(LoginPageTest.java:34)
+

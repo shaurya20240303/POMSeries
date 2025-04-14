@@ -1,0 +1,16 @@
+com\qa\opencart\pages\SearchResultsPage.class
+com\qa\opencart\listeners\TestAllureListener.class
+com\qa\opencart\util\ElementUtil.class
+com\qa\opencart\pages\LoginPage.class
+com\qa\opencart\constants\AppError.class
+com\qa\opencart\factory\OptionsManager.class
+com\qa\opercart\exception\FrameworkException.class
+com\qa\opencart\pages\ProductInfoPage.class
+com\qa\opencart\listeners\AnnotationTransformer.class
+com\qa\opencart\pages\HomePage.class
+com\qa\opencart\pages\CommonsPage.class
+com\qa\opencart\listeners\Retry.class
+com\qa\opencart\util\ExcelUtil.class
+com\qa\opencart\util\javaScriptutil.class
+com\qa\opencart\factory\DriverFactory.class
+com\qa\opencart\constants\AppConstants.class
