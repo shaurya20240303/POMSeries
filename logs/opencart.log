@@ -49,3 +49,15 @@
 2025-04-10 20:20:12 INFO  DriverFactory:47 - browser name is: edge
 2025-04-10 20:20:12 INFO  DriverFactory:47 - browser name is: chrome
 2025-04-10 20:20:12 INFO  DriverFactory:47 - browser name is: firefox
+2025-04-15 16:16:16 WARN  DriverFactory:140 - no env is passed, hence running test suite on qa env..
+2025-04-15 16:16:16 WARN  DriverFactory:140 - no env is passed, hence running test suite on qa env..
+2025-04-15 16:16:16 WARN  DriverFactory:140 - no env is passed, hence running test suite on qa env..
+2025-04-15 16:16:17 INFO  DriverFactory:47 - browser name is: chrome
+2025-04-15 16:16:17 INFO  DriverFactory:47 - browser name is: edge
+2025-04-15 16:16:17 INFO  DriverFactory:47 - browser name is: firefox
+2025-04-15 16:23:28 WARN  DriverFactory:140 - no env is passed, hence running test suite on qa env..
+2025-04-15 16:23:28 WARN  DriverFactory:140 - no env is passed, hence running test suite on qa env..
+2025-04-15 16:23:28 WARN  DriverFactory:140 - no env is passed, hence running test suite on qa env..
+2025-04-15 16:23:28 INFO  DriverFactory:47 - browser name is: firefox
+2025-04-15 16:23:28 INFO  DriverFactory:47 - browser name is: edge
+2025-04-15 16:23:28 INFO  DriverFactory:47 - browser name is: chrome

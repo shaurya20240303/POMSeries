@@ -6,6 +6,7 @@ com\qa\opencart\constants\AppError.class
 com\qa\opencart\factory\OptionsManager.class
 com\qa\opercart\exception\FrameworkException.class
 com\qa\opencart\pages\ProductInfoPage.class
+com\qa\opencart\pages\logindemo.class
 com\qa\opencart\listeners\AnnotationTransformer.class
 com\qa\opencart\pages\HomePage.class
 com\qa\opencart\pages\CommonsPage.class
