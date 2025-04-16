@@ -122,8 +122,8 @@
 					<reuseForks>true</reuseForks>
 					<suiteXmlFiles>
 						<!-- <suiteXmlFile>src/test/resources/testrunner/testng_regression.xml</suiteXmlFile> -->
-						<suiteXmlFile>src\test\resources\testrunner\testng.regression.xml</suiteXmlFile> 
-						<!--<SuiteXmlFile>${suiteXmlFile}</SuiteXmlFile> -->
+						<!--<suiteXmlFile>src\test\resources\testrunner\testng.regression.xml</suiteXmlFile> -->
+						<SuiteXmlFile>${suiteXmlFile}</SuiteXmlFile> 
 					</suiteXmlFiles>
 					
 					<argLine>
