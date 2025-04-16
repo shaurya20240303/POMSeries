@@ -13,6 +13,8 @@ import com.qa.opencart.util.ElementUtil;
 public class HomePage {
 	private WebDriver driver; //global variable
 	private ElementUtil eleUtil;
+	
+	//he
 	// encapsulation how to private varib;e using public layer
 	// create constructor why we create constructor becuase when LoginPage class
 	// object create in different class thata time constructor will eb called and
